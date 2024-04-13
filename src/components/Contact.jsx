@@ -1,3 +1,4 @@
+{/*
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -150,3 +151,4 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, 'contact');
+*/}
