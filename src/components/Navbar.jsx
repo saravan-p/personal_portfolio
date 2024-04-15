@@ -65,7 +65,7 @@ const Navbar = () => {
                   <li
                     key={nav.id}
                     className={`${active === nav.title ? 'text-french' : 'text-eerieBlack'}
-                                text-4xl font-bold uppercase tracking-wider cursor-pointer my-4`} // updated text size and spacing
+                                text-2 font-bold uppercase tracking-wider cursor-pointer my-4`} // updated text size and spacing
                     onClick={() => {
                       setActive(nav.title);
                       setToggle(false); // close menu after selection
@@ -79,7 +79,7 @@ const Navbar = () => {
             <img
               src={menu}
               alt="Menu"
-              className="w-8 h-8 cursor-pointer" // consistent icon size with the close button
+              className="w-4 h-4 cursor-pointer" // consistent icon size with the close button
               onClick={() => setToggle(true)} // more explicit toggle action
             />
           )}
