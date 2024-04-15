@@ -18,7 +18,7 @@ const Tech = () => {
         {technologies.map((technology) => (
           // Adjusted width and height for better mobile view
           <div className="w-20 h-20 sm:w-28 sm:h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <BallCanvas icon={technology.icon} width="80" height="80" />
           </div>
         ))}
       </div>
