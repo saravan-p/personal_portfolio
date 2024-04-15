@@ -56,7 +56,7 @@ const Navbar = () => {
                 <img
                   src={close}
                   alt="Close"
-                  className="w-8 h-8 cursor-pointer" // updated size for better accessibility
+                  className="w-2 h-2 cursor-pointer" // updated size for better accessibility
                   onClick={() => setToggle(false)} // more explicit toggle action
                 />
               </div>

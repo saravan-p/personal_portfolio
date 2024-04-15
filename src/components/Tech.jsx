@@ -17,8 +17,8 @@ const Tech = () => {
       <div className="flex flex-wrap justify-center gap-5 sm:gap-10 mt-8 sm:mt-14">
         {technologies.map((technology) => (
           // Adjusted width and height for better mobile view
-          <div className="w-20 h-20 sm:w-28 sm:h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} width="20" height="20" />
+          <div className="w-180 h-180 sm:w-28 sm:h-28" key={technology.name}>
+            <BallCanvas icon={technology.icon} width="60" height="60" />
           </div>
         ))}
       </div>
