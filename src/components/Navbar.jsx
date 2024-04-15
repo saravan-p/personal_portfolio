@@ -49,35 +49,26 @@ const Navbar = () => {
         </ul>
 
         {/* mobile */}
-        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           {toggle ? (
-            <div
-              className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
-                  toggle ? 'menu-open' : 'menu-close'
-                }`}>
+            <div className={`fixed inset-0 bg-flashWhite opacity-95 z-30 p-6`}>
               <div className="flex justify-end">
                 <img
                   src={close}
-                  alt="close"
-                  className="w-[22px] h-[22px] object-contain cursor-pointer"
-                  onClick={() => setToggle(!toggle)}
+                  alt="Close"
+                  className="w-8 h-8 cursor-pointer" // updated size for better accessibility
+                  onClick={() => setToggle(false)} // more explicit toggle action
                 />
               </div>
-              <ul
-                className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+              <ul className="flex flex-col items-center justify-center h-full">
                 {navLinks.map((nav) => (
                   <li
-                    id={nav.id}
                     key={nav.id}
-                    className={`${
-                      active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
-                      uppercase tracking-[1px] cursor-pointer`}
+                    className={`${active === nav.title ? 'text-french' : 'text-eerieBlack'}
+                                text-4xl font-bold uppercase tracking-wider cursor-pointer my-4`} // updated text size and spacing
                     onClick={() => {
-                      setToggle(!toggle);
                       setActive(nav.title);
+                      setToggle(false); // close menu after selection
                     }}>
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   </li>
@@ -87,9 +78,9 @@ const Navbar = () => {
           ) : (
             <img
               src={menu}
-              alt="menu"
-              className="w-[34px] h-[34px] object-contain cursor-pointer"
-              onClick={() => setToggle(!toggle)}
+              alt="Menu"
+              className="w-8 h-8 cursor-pointer" // consistent icon size with the close button
+              onClick={() => setToggle(true)} // more explicit toggle action
             />
           )}
         </div>

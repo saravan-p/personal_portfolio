@@ -17,6 +17,12 @@ const styles = {
   paddingY: 'sm:py-16 py-6',
   padding: 'sm:px-16 px-6 sm:py-16 py-10',
 
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  }
+
   heroHeadText:
     'font-black text-eerieBlack lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[90px] mt-2',
   heroSubText:
