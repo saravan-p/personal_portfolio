@@ -44,6 +44,7 @@ import {
   gaitrecognition,
   umbc,
   vit,
+  Linkedin,
 } from '../assets';
 
 export const navLinks = [
@@ -63,7 +64,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Machine Leraning Engineer',
+    title: 'Machine Learning Engineer',
     icon: ML,
   },
   {
@@ -181,7 +182,7 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Intelligent Play',
+    name: 'LinkedIn Safeguard',
     description:
       'Enhancing Gaming Experience through Reinforcement Learning',
     tags: [
@@ -198,8 +199,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: intelligentplay,
-    repo: 'https://github.com/saravan-p/Intelligent_play',
+    image: Linkedin,
+    repo: 'https://github.com/saravan-p/LinkedIn_Safeguard',
     demo: '',
   },
   {

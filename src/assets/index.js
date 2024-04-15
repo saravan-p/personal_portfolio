@@ -66,7 +66,7 @@ import anonymous from './projects/anonymous.jpg';
 import gaitrecognition from './projects/gaitrecognition.jpeg';
 import intelligentplay from './projects/intelligentplay.jpg';
 import npc from './projects/npc.png';
-
+import Linkedin from './projects/Linkedin.png';
 
 export {
   bwmap,
@@ -131,4 +131,5 @@ export {
   npc,
   umbc,
   vit,
+  Linkedin
 };

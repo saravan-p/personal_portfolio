@@ -36,17 +36,15 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-6xl leading-[30px]">
-        Welcome to the vibrant digital showcase of Pathapati Venkata Sai Saravan, 
-        an enthusiastic and forward-thinking candidate eagerly completing his Master of Science in Computer Science at the University of Maryland Baltimore County, 
-        with a graduation date set for May 2024. This follows his successful journey at the Vellore Institute of Technology, 
-        where he earned his Bachelor of Technology in Computer Science. Saravan's passion for Machine Learning, Artificial Intelligence, 
-        Game Programming, and Web Development is matched only by his unwavering curiosity for the latest emerging technologies. 
-        Living in Baltimore, MD, his portfolio is a dynamic testament to his dedication to diving deep into the heart of technical innovation and applying advanced concepts in tangible, 
-        impactful ways. Through ambitious projects, Saravan showcases not only his technical dexterity but also a proactive stance on tackling modern challenges with a keen eye. 
-        His journey is also adorned with strong leadership, eloquent public speaking, and adept event management skills, further enriched by meaningful contributions to research, 
-        community service, and scholarly publications, including notable presentations at the ICT4SD 2022 International Conference. 
-        Step into this portfolio to discover a professional who not only keeps in step with the rapid pace of technological advancements but eagerly leads the charge into new realms of possibility.
+        className="mt-4 text-taupe text-[18px] max-w-6xl leading-[30px]"
+        >
+        Hello there! I’m <strong>Pathapati Venkata Sai Saravan</strong>, currently completing my Master of Science in Computer Science at the University of Maryland Baltimore County, set to graduate in May 2024. My academic journey began at the Vellore Institute of Technology where I earned my Bachelor of Technology in Computer Science.
+
+        I am deeply passionate about <strong>Machine Learning, Artificial Intelligence, Game Programming</strong>, and <strong>Web Development</strong>. Living in Baltimore, MD, my portfolio reflects my dedication to immersing myself in technical innovation and applying advanced concepts in ways that make a real impact.
+
+        In my projects, you’ll see a blend of technical skill and a proactive approach to solving modern challenges. I pride myself not only on keeping up with the rapid pace of technology but also on leading the charge into new realms of possibility. My journey is enriched with strong leadership roles, public speaking, and event management skills. I have also contributed to research and community service and have presented at notable conferences like the <strong>ICT4SD 2022 International Conference</strong>.
+
+        Explore my portfolio to see how I apply cutting-edge technology to real-world problems, leading the way in tech innovation!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

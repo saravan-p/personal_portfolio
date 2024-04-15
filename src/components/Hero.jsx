@@ -45,8 +45,8 @@ const Hero = () => {
                 Saravan
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-4 text-eerieBlack`}>
-              Technologist|Inquirer|Learner <br className="sm:block hidden" /> 
+            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+              Technologist | Inquirer | Learner <br className="sm:block hidden" /> 
             </p>
           </div>
           <div
