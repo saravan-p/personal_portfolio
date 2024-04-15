@@ -157,8 +157,7 @@ const projects = [
   {
     id: 'project-2',
     name: 'LinkedIn Safeguard',
-    description:
-      'enhance security on LinkedIn by identifying fake profiles and protecting users data with advanced machine learning techniques.',
+    description: 'Enhance security on LinkedIn by identifying fake profiles and protecting users data with advanced machine learning techniques.',
     tags: [
       {
         name: 'react',
