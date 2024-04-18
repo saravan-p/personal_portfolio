@@ -127,7 +127,7 @@ const experiences = [
     company_name: 'Bachelor Of Technology In Computer Science',
     icon: vit,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'July 2018 - May 2022',
   },
 ];
 
