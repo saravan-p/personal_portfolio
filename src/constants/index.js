@@ -115,6 +115,31 @@ const technologies = [
 ];
 
 const experiences = [
+ 
+   {
+    title: 'Backend Developer',
+    company_name: 'DataNue',
+    
+    iconBg: '#333333',
+    date: '- Present',
+  },
+
+   {
+    title: 'Guesr Researcher at DREAM Lab',
+    company_name: 'University Of Maryland, Baltimore COunty',
+    icon: umbc,
+    iconBg: '#333333',
+    date: ' - Present',
+  },
+
+  {
+    title: 'Intern',
+    company_name: 'Dazarus Pvt Ltd',
+    
+    iconBg: '#333333',
+    date: 'July 2023 - Dec 2023',
+  },
+  
   {
     title: 'University Of Maryland, Baltimore COunty',
     company_name: 'Master Of Science In Computer Science',
