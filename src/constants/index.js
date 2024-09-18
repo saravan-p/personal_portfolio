@@ -119,7 +119,7 @@ const experiences = [
   {
     title: 'Backend Developer',
     company_name: 'DataNue',
-    
+    icon: umbc,
     iconBg: '#333333',
     date: '- Present',
   },
@@ -135,7 +135,7 @@ const experiences = [
   {
     title: 'Intern',
     company_name: 'Dazarus Pvt Ltd',
-    
+    icon: umbc,
     iconBg: '#333333',
     date: 'July 2023 - Dec 2023',
   },
