@@ -125,7 +125,7 @@ const experiences = [
   },
 
    {
-    title: 'Guesr Researcher at DREAM Lab',
+    title: 'Guest Researcher at DREAM Lab',
     company_name: 'University Of Maryland, Baltimore COunty',
     icon: umbc,
     iconBg: '#333333',
