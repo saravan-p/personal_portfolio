@@ -116,7 +116,7 @@ const technologies = [
 
 const experiences = [
  
-   {
+  {
     title: 'Backend Developer',
     company_name: 'DataNue',
     
@@ -124,7 +124,7 @@ const experiences = [
     date: '- Present',
   },
 
-   {
+  {
     title: 'Guest Researcher at DREAM Lab',
     company_name: 'University Of Maryland, Baltimore COunty',
     icon: umbc,
