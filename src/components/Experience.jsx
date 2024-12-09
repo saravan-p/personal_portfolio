@@ -102,7 +102,8 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'https://github.com/saravan-p/resume/blob/main/saravan-Resume%20.pdf', //paste the link to your resume here
+                  //'https://github.com/saravan-p/resume/blob/main/saravan-Resume%20.pdf'
+                  'https://github.com/saravan-p/resume/blob/a7482da65d4ea006cd769b66975f8330bda55ca2/Resume.pdf', //paste the link to your resume here
                   '_blank'
                 )
               }
