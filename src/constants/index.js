@@ -118,7 +118,7 @@ const experiences = [
  
   {
     title: 'Guest Researcher at DREAM Lab',
-    company_name: 'University Of Maryland, Baltimore COunty',
+    company_name: 'University Of Maryland Baltimore COunty',
     icon: umbc,
     iconBg: '#333333',
     date: ' - Present',
@@ -126,7 +126,7 @@ const experiences = [
   
   {
     title: 'Backend Developer',
-    company_name: 'UNIIAN, DataNue',
+    company_name: 'UNIIAN -DataNue',
     icon: umbc,
     iconBg: '#333333',
     date: 'Sep 2024 - Dec 2024',
