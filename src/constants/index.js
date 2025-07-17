@@ -121,7 +121,7 @@ const experiences = [
     company_name: 'OQP Solutions',
     icon: umbc,
     iconBg: '#333333',
-    date: ' - Present',
+    date: 'Dec 2024 - Present',
   },
   
   {
@@ -129,7 +129,7 @@ const experiences = [
     company_name: 'UNIIAN -DataNue',
     icon: umbc,
     iconBg: '#333333',
-    date: 'Sep 2024 - Dec 2024',
+    date: 'Jan 2024 - May 2024',
   },
 
   {
@@ -137,7 +137,7 @@ const experiences = [
     company_name: 'Dazarus Pvt Ltd',
     icon: umbc,
     iconBg: '#333333',
-    date: 'July 2023 - Dec 2023',
+    date: 'OCT 2022 - Dec 2023',
   },
   
   {
