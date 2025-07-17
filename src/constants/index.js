@@ -117,15 +117,15 @@ const technologies = [
 const experiences = [
  
   {
-    title: 'Guest Researcher at DREAM Lab',
-    company_name: 'University Of Maryland Baltimore COunty',
+    title: 'AI Engineer',
+    company_name: 'OQP Solutions',
     icon: umbc,
     iconBg: '#333333',
     date: ' - Present',
   },
   
   {
-    title: 'Backend Developer',
+    title: 'Machine Learning Engineer',
     company_name: 'UNIIAN -DataNue',
     icon: umbc,
     iconBg: '#333333',
