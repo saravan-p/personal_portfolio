@@ -35,16 +35,16 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-6xl leading-[30px]"
-        >
-        Hello there! I’m <strong>Pathapati Venkata Sai Saravan</strong>, currently completing my Master of Science in Computer Science at the University of Maryland Baltimore County, set to graduate in May 2024. My academic journey began at the Vellore Institute of Technology where I earned my Bachelor of Technology in Computer Science.
+  variants={fadeIn('', '', 0.1, 1)}
+  className="mt-4 text-taupe text-[18px] max-w-6xl leading-[30px]"
+  >
+  Hello! I’m <strong>Pathapati Venkata Sai Saravan</strong>, an AI/ML Engineer with a Master of Science in Computer Science from UMBC (‘24) and a B.Tech in Computer Science from VIT (‘22).
 
-        I am deeply passionate about <strong>Machine Learning, Artificial Intelligence, Game Programming</strong>, and <strong>Web Development</strong>. Living in Baltimore, MD, my portfolio reflects my dedication to immersing myself in technical innovation and applying advanced concepts in ways that make a real impact.
+  I specialize in building <strong>scalable, production‑grade ML pipelines</strong> and deploying deep‑learning models via Docker‑powered CI/CD on cloud platforms like <strong>GCP</strong> and <strong>AWS</strong>. My career highlights include architecting real‑time <strong>NLP</strong> services at OQP Solutions, developing IoT predictive‑maintenance workflows at Dazarus, and leading generative AI research at UNIIAN.
 
-        In my projects, you’ll see a blend of technical skill and a proactive approach to solving modern challenges. I pride myself not only on keeping up with the rapid pace of technology but also on leading the charge into new realms of possibility. My journey is enriched with strong leadership roles, public speaking, and event management skills. I have also contributed to research and community service and have presented at notable conferences like the <strong>ICT4SD 2022 International Conference</strong>.
+  My toolkit spans <strong>Python, PyTorch, TensorFlow, FastAPI, Kubernetes</strong>, and MLOps best practices—automated testing, GPU acceleration, and observability. I thrive on translating cutting‑edge research (GNNs, GANs, diffusion models) into low‑latency, reliable services that drive measurable impact.
 
-        Explore my portfolio to see how I apply cutting-edge technology to real-world problems, leading the way in tech innovation!
+  Beyond code, I lead technical workshops, mentor peers, and present at conferences like <strong>ICT4SD 2022</strong>. Explore my portfolio to see how I merge innovation with real‑world solutions—and let’s push the boundaries of AI together!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
